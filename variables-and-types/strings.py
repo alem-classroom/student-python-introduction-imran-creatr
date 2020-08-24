@@ -9,7 +9,7 @@ def concat_strings(first, second):
 def duplicate_string(str, copy):
     # return new string which is copy of str copy times
     # example -> duplicate_string('s', 2) == 'ss'
-    compy_sum = ""
+    copy_sum = ""
     for i in range(copy):
     	copy_sum =  copy_sum + str
     return copy_sum
@@ -20,7 +20,6 @@ def reverse(str):
     slicing = str[leng::-1]
     return slicing
 
-p = reverse("")
-print(p)
-#def is_substring(str, substr):
+def is_substring(str, substr):
     # return true if substr is the substring of str, false otherwise
+    return str in substr
