@@ -12,10 +12,10 @@ def multiply(first, second):
 
 def div_with_floor(first, second):
     # return division with floor of first and second arguments
-    return first // second
+    return first / second
 
 
 def div_without_floor(first, second):
     # return division without floor of first and second arguments
-    return first / second
+    return first // second
 
