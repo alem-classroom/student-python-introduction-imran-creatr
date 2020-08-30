@@ -1,5 +1,6 @@
 def size_of_set(set):
-    # return size of set  
+    # return size of set
+    return len(set)  
 def is_elem_in_set(set, elem):
     # return true if elem exists in set, false otherwise
 
