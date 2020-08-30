@@ -22,4 +22,4 @@ def reverse(str):
 
 def is_substring(str, substr):
     # return true if substr is the substring of str, false otherwise
-    return str in substr
+    return substr in str
