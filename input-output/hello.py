@@ -1,4 +1,4 @@
-def hello_world(a):
+def hello_world():
     # return Hello World! as string
-    return f" \"{a}\""
+    return "Hello World!"
 
